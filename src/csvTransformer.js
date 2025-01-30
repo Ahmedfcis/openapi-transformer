@@ -4,7 +4,7 @@ const rowSeperator = ',';
 const colon = ':';
 
 function escapePipe(text) {
-    if(text === null)
+    if(text === null || text === undefined)
         return '';
         
     if(text.replace === undefined)
